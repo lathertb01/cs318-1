@@ -1,0 +1,21 @@
+body{
+    background-color: cornflowerblue;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+h3{
+    font-size: 24pt;
+    font-family:Sansita; 
+    text-shadow: 4px 1px 5px #000000;
+    
+    
+    
+}
+@font-face{
+    font-family: Sansita;
+        src: url(https://fonts.google.com/?selection.family=Sansita);
+}
+.answer{
+    font-family: Oswald|Sansita;
+    src:url(https://fonts.google.com/?selection.family=Oswald|Sansita);
+}
