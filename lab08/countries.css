@@ -1,0 +1,44 @@
+.stamp{
+    width:300px;
+    height:300px;
+    margin:10px;
+    border:dashed;
+    border-color: darkseagreen;
+    border-width: 4px;
+    box-shadow:10px,10px,10px,10px;
+    background-position: center, top right;
+
+}
+#chile{
+    background-image: url(chileflag.gif), url(chile.jpg);
+    background-repeat: no-repeat;
+    background-position: top right, center;
+    background-size: 100px, auto 100%;  
+       
+}
+
+
+#bamdh{
+    background-image: url(bhflag.gif),url(bandh.jpg);
+    background-repeat: no-repeat;
+    background-position: top right, center;
+    background-size: 100px, auto 100%;
+}
+#ghana{
+    background-image: url(ghanaflag.gif), url(ghana.png); 
+    background-repeat: no-repeat;
+    background-position: top right, center;
+    background-size: 100px, auto 100%;
+}
+
+#philippines{
+    background-image:url(philippinesflag.gif), url(philippines.jpg);
+    background-repeat: no-repeat;
+    background-position: top right, center;
+    background-size: 100px, auto 100%;
+    
+}
+div{
+    display:inline-block;
+    
+}
