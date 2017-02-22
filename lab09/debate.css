@@ -1,0 +1,49 @@
+*{
+    box-sizing: border-box;
+}
+.blurb{
+    width: 90%;
+    box-shadow: 5px 10px 5px;
+    font: times new roman, san-serif;
+    border: 1px;
+    min-height: 202px;
+    min-width: 400px;
+    background-size:auto 200px; 
+    padding: 10px;
+    margin: none; 
+    
+    
+    
+}
+.left{
+    background-color: cadetblue;
+    background-image:url(taylorswift.jpg);
+    background-repeat: no-repeat;
+    border-radius: 10px 40px 40px 10px;
+    padding-left: 200px;
+  
+   
+}
+.right{
+    background-color: deeppink;
+    margin-left: auto;
+    background-image:url(Kanye_West.jpg);
+    background-repeat: no-repeat;
+    background-position: right;
+    border-radius: 40px 10px 10px 40px;
+}
+h1{
+    background-image: linear-gradient(to right, cadetblue, deeppink);
+    box-shadow: 5px 10px 5px;
+    padding-top: none;
+    text-align: center;
+    
+
+    
+}
+.lw{
+    color: deeppink;
+}
+.rw{
+    color:cadetblue;
+}

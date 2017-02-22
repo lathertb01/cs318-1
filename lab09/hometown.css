@@ -1,0 +1,59 @@
+*{
+    box-sizing: border-box;
+}
+
+html{
+background-image: linear-gradient( to bottom, white, blue);
+background-repeat: no-repeat;
+    background-size: 4000px auto;
+}
+    
+}
+body{
+    text-align: center;
+    margin-left: 200px;
+    margin-right: 200px;
+   
+    
+}
+header{
+    text-align: center;
+    background-color: cornflowerblue;
+    color:white;
+    height: 50px;
+    font-size: 30pt;
+    
+    
+}
+nav{
+    text-align: center;
+    height: 40px;
+    font-size: 15pt;
+    
+    
+}
+h3{
+    text-align: right;
+    
+}
+img{
+    height: 600px;
+    width: auto;
+    margin-left: 250px;
+    margin-right: auto;
+    
+    
+    
+}
+footer{
+    text-align: right;
+}
+#wrapper{
+    min-width:500px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    box-shadow: 10px 5px 10px;
+     background-color: white;
+    
+}
