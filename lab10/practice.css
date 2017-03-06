@@ -1,0 +1,16 @@
+.popup {
+  position: absolute;
+  top: 18pt;
+  left: 0;
+  visibility: hidden;    
+}
+
+.movie{
+    position:relative;
+    color: blue;
+    text-decoration: underline;
+}
+
+.movie:hover.popup{
+    visibility: visible;
+}

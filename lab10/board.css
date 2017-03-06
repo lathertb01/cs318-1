@@ -1,0 +1,12 @@
+*{
+    box-sizing: border-box;
+    background-image: url(cork.jpg);
+    background-repeat: repeat;
+}
+
+ img{
+    border-top: 20px #FFFFFF;
+    border-left: 20px #FFFFFF;
+    border-right:20px #FFFFFF;
+    border-bottom: 50px #FFFFFF;
+}
