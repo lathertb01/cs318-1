@@ -1,0 +1,64 @@
+*{
+    box-sizing: border-box;
+}
+
+header{
+    padding:10px;
+    margin:0px;
+    background-color: #B28400;
+    font-family: sans-serif;
+    
+}
+
+ul{
+    list-style-type: none;
+    padding-left: 0;
+    font-family: sans-serif;
+    
+}
+
+body{
+    background-color: #19FFC1;
+    margin:0px;
+    }
+main {
+    position: absolute;
+    left: 14em;
+    right: 0;
+}
+nav{
+    background-color: #FFBD00;
+    padding:5px;
+    float:left;
+    width:14em; 
+    height: 1060em;
+}
+
+.quote {
+   float: right; 
+    width: 14em;
+    padding: 5px;
+    margin: 5px;
+    font-size: 21pt;
+    background-color: beige;
+    font-family:cursive;
+}
+.poem {
+    white-space: pre-wrap;
+}
+
+@media (max-width: 28em) {
+    main {
+        position: static;
+        float:none;
+    }
+    nav li {
+        display: inline;
+    }
+    span {
+        display: none;
+    }
+    .quote {
+       width: 100%;
+    }
+}
