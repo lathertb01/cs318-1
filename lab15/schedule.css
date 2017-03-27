@@ -1,0 +1,22 @@
+*{
+    box-sizing: border-box;
+}
+
+table td{
+        border:1px solid black;
+        width:5em;
+        height:5em;
+        text-align: center;
+        font-size:12pt;
+        }
+
+table th{
+    text-align: center;
+    font-weight: 50;
+    font-size: 16pt;
+}
+
+table{
+    border-spacing: 0;
+    border-collapse: collapse;
+    
