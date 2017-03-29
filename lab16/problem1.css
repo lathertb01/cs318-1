@@ -1,0 +1,34 @@
+*{
+    box-sizing:border-box;
+}
+
+body{
+    background-color: black;
+}
+
+h1{
+    color:white;
+}
+h2{
+    color:white;
+}
+li{
+    color:white;
+}
+
+#square{
+    width:100px;
+    height:100px;
+    background:white; 
+    
+}
+#circle{
+    width:100px;
+    height:100px;
+    background:white;
+    border-radius:50px;
+    
+}
+li#numbers{
+    list-style-type: none;
+}
