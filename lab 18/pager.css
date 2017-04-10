@@ -1,0 +1,60 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin:0;
+    
+}
+#container{
+    background-color: black;
+    height:840px;
+    position:relative;
+}
+.page{
+    height:1000px;
+    width: 100%;
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: absolute;
+    display: none;
+    
+    
+}
+input[ type="radio"]:checked + .page{
+    display:block;
+}
+
+#page1{
+    background-image:url(sun.jpg);
+}
+#page2{
+    background-image: url(tree.jpg);
+}
+#page3{
+    background-image:url(river.jpg);
+}
+#controls{
+    position: absolute;
+    left:50%;
+    bottom:0;
+    transform:translate(-50%, 0);
+    user-select:none;
+   }
+label{
+    font-size: 32pt;
+    color:white;
+    cursor: pointer;
+}
+img{
+    height:700px;
+    
+}
+
+#show1:checked ~ #controls label:nth-child(1), #show2:checked ~ #controls label:nth-child(2), #show3:checked ~ #controls label:nth-child(3).{
+    color:aqua;
+    
+} 
+input{
+    visibility:hidden;
+}
