@@ -1,0 +1,46 @@
+*{
+    box-sizing: border-box;
+}
+
+.text{
+    font-family: cursive;
+    font-size: 14pt;
+    color:blue;
+    margin-left: 0px;
+    padding:5px;    
+}
+
+.style{
+    background-color: deeppink;
+    height: 1120px;
+    width: 600px;
+}
+
+label{
+    margin-left:15px;
+    padding:2px;    
+}
+select {
+    margin-left:15px;
+    margin-top: 5px;
+}
+
+input[type=text] {
+    margin-left: 15px;
+}
+input[type=submit]{
+    background-color:aqua;
+    border:none;
+    padding:8px;
+    margin-left:45%;
+    font-size: 14pt;
+    font-weight: bold;
+}
+body{
+    margin:0;
+}
+h1{
+    color:aliceblue;
+    font-family: cursive;
+    text-align: center;
+}

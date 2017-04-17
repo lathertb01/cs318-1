@@ -51,7 +51,9 @@ img{
     
 }
 
-#show1:checked ~ #controls label:nth-child(1), #show2:checked ~ #controls label:nth-child(2), #show3:checked ~ #controls label:nth-child(3).{
+#show1:checked ~ #controls label:nth-child(1),
+#show2:checked ~ #controls label:nth-child(2), 
+#show3:checked ~ #controls label:nth-child(3){
     color:aqua;
     
 } 
