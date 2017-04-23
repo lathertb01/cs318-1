@@ -3,10 +3,13 @@
     background-image: url(cork.jpg);
     background-repeat: repeat;
 }
-
- img{
-    border-top: 20px #FFFFFF;
-    border-left: 20px #FFFFFF;
-    border-right:20px #FFFFFF;
-    border-bottom: 50px #FFFFFF;
+    
 }
+.photo{
+   border-top: 20px #FFFFFF;
+   border-right: 20px #FFFFFF;
+   border-bottom: 50px #FFFFFF;
+   border-left: 20px #FFFFFF;
+   display:inline;
+}
+
