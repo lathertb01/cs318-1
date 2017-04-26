@@ -4,7 +4,7 @@
 html{
     margin:0px;
     padding:0px;
-    height:100%;
+    
 }
 header{
     background-color: black;
@@ -27,8 +27,6 @@ nav{
    background-color: black;
    position: relative;
    padding:5px;
-    
-    
 }
 nav ul ul{
     position: absolute;
@@ -38,43 +36,45 @@ nav ul ul{
     display:none;
     z-index:1;
 }
+nav ul li:hover ul{
+    display: block;
+    
+}
 nav ul ul li{
     border:1px solid #000000;
     display:block; 
     width: 7em;
     padding-left: 1em; 
     margin-left: 0;
-    
-    
-    
+    float:none;
 }
-nav li:hover ul{
-    display:block;
-}
+
 body{
+    position:relative;
+    height:1200px;
     background-image: url(background.jpg);
     background-repeat: no-repeat;
     margin:2px;
     padding:0px;
-    height:100%;
+    
 }
 
-}
+
 ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
-    height:50px;
+    
 }
 li {
     float: left;
     list-style: none;
-   
-    
-        
 }
 
-a {
+
+
+
+a, nav ul li div {
     display: block;
     padding: 8px;
     background-color: black;
@@ -84,8 +84,10 @@ a {
     font-size: 10pt;
 }
 
-    
-}
+a:hover, nav ul li div:hover{
+    color:darkmagenta; 
+}    
+
 footer{
     position: absolute;
     background-color: black;
@@ -98,8 +100,9 @@ footer{
     bottom: 0;
     left:0;
     
-    
+}
+
+@media screen and (min-width: 480px);{
     
 }
-@media screen and (min-width: 480px);
 

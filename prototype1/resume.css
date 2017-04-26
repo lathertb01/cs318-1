@@ -9,6 +9,7 @@ main{
 body{
     background-image: url(background.jpg);
     background-repeat: repeat;
+    height:5000px;
 }
 h3{
     color:white;

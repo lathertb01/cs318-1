@@ -1,46 +1,8 @@
 *{
     box-sizing: border-box;
 }
-header{
-    background-color: black;
-    color:white;
-    font-size:20pt;
-    font-family: sans-serif;
-    font-weight: bold;
-    text-align:left;
-    height:75px;
-}
-h2{
-    font-size: 14pt;
-    font-weight:normal;
-    
-}
-nav{
-   height: 50px;
-    background-color: black;
-    
-}
-body{
-    background-image: url(background.jpg);
-    background-repeat: no-repeat;
-}
-ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    height:50px;
-}
-li {
-    float: left;
-        
-}
 
-a {
-    display: block;
-    padding: 8px;
-    background-color: black;
-    text-decoration: none;
-    color:white;
-    font-family: sans-serif;
-    font-size: 10pt;
+#embed{
+    text-align:center;
+    padding:15px;
 }

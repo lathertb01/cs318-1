@@ -1,0 +1,22 @@
+*{
+    box-sizing: border-box;
+}
+
+
+#imagelist{
+   position:absolute;
+   left:10px;
+   text-align: center;
+   height:auto;
+   display:inline-block;
+   
+
+}
+
+ img:hover{
+    transform:scale(1.5);
+    transition-duration: .5s;
+    transition-timing-function:ease-out;
+    z-index: 1;
+    position:relative;
+}
