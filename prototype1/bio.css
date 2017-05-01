@@ -5,13 +5,17 @@
 }
 
 p{
-    color:white;
-    font-family: sans-serif;
+    background:rgba(255,255,255, 0.5);
+    color:black;
+    font-family:sans-serif;
+    font-weight:bolder;
     padding:20px;
+    margin:20px;
     height:1000px;
-    width:400px;
-    line-height: 1.5;
-    font-weight: 100;
+    width:500px;
+    line-height:1.5;
+    font-weight:100;
     position:relative;
+    
     
 }

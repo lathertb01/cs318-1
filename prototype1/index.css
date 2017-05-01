@@ -9,6 +9,7 @@
    text-align: center;
    height:auto;
    display:inline-block;
+    padding:100px;
    
 
 }
@@ -19,4 +20,9 @@
     transition-timing-function:ease-out;
     z-index: 1;
     position:relative;
+}
+img{
+    width:320px;
+    height:320px;
+    object-fit: cover;
 }

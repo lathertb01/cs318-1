@@ -18,5 +18,11 @@ main{
     
 }
 body{
-    height:8650px;
+    height:5050px;
+    width:auto;
+}
+img{
+    width:300px;
+    height:300px;
+    object-fit: cover;
 }

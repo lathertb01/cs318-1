@@ -9,17 +9,19 @@ html{
 header{
     background-color: black;
     color:white;
-    font-size:20pt;
+    font-size:30pt;
     font-family: sans-serif;
     font-weight: bold;
     text-align:left;
-    height:75px;
     padding:5px;
+    height:100px
     
 }
+
 h2{
-    font-size: 14pt;
+    font-size: 16pt;
     font-weight:normal;
+    padding:0px;
     
 }
 nav{
@@ -43,7 +45,7 @@ nav ul li:hover ul{
 nav ul ul li{
     border:1px solid #000000;
     display:block; 
-    width: 7em;
+    width: 10em;
     padding-left: 1em; 
     margin-left: 0;
     float:none;
@@ -81,11 +83,11 @@ a, nav ul li div {
     text-decoration: none;
     color:white;
     font-family: sans-serif;
-    font-size: 10pt;
+    font-size: 14pt;
 }
 
 a:hover, nav ul li div:hover{
-    color:darkmagenta; 
+    color:red; 
 }    
 
 footer{
