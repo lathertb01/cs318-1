@@ -19,7 +19,11 @@ header{
 }
 
 h2{
+<<<<<<< HEAD
     font-size: 16pt;
+=======
+    font-size: 18pt;
+>>>>>>> origin/master
     font-weight:normal;
     padding:0px;
     
@@ -28,7 +32,8 @@ nav{
    height: 50px;
    background-color: black;
    position: relative;
-   padding:5px;
+   padding:2px;
+   
 }
 nav ul ul{
     position: absolute;
@@ -37,6 +42,7 @@ nav ul ul{
     text-align: left;
     display:none;
     z-index:1;
+    
 }
 nav ul li:hover ul{
     display: block;
@@ -87,8 +93,14 @@ a, nav ul li div {
 }
 
 a:hover, nav ul li div:hover{
+<<<<<<< HEAD
     color:red; 
 }    
+=======
+    color:darkmagenta; 
+}  
+
+>>>>>>> origin/master
 
 footer{
     position: absolute;
