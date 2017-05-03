@@ -6,30 +6,17 @@
 }
 
 p{
-<<<<<<< HEAD
-    background:rgba(255,255,255, 0.5);
-    color:black;
-    font-family:sans-serif;
-    font-weight:bolder;
-=======
     background-color: #fff;
     background-color: rgba(255,255,255,0.5);
     font-family: sans-serif;
     color:black;
->>>>>>> origin/master
     padding:20px;
     margin:20px;
     height:1000px;
-<<<<<<< HEAD
     width:500px;
     line-height:1.5;
     font-weight:100;
     position:relative;
-=======
-    width:510px;
-    line-height: 1.5;
-    position:absolute;
->>>>>>> origin/master
     
     
 }

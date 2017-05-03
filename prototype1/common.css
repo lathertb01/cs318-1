@@ -19,11 +19,9 @@ header{
 }
 
 h2{
-<<<<<<< HEAD
+
     font-size: 16pt;
-=======
     font-size: 18pt;
->>>>>>> origin/master
     font-weight:normal;
     padding:0px;
     
@@ -93,14 +91,10 @@ a, nav ul li div {
 }
 
 a:hover, nav ul li div:hover{
-<<<<<<< HEAD
     color:red; 
 }    
-=======
-    color:darkmagenta; 
-}  
 
->>>>>>> origin/master
+
 
 footer{
     position: absolute;
