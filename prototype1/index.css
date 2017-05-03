@@ -9,10 +9,10 @@
    text-align: center;
    height:auto;
    display:inline-block;
-    padding:100px;
+   padding:100px;
    
+ }
 
-}
 
  img:hover{
     transform:scale(1.5);
