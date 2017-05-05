@@ -14,11 +14,15 @@ header{
     font-weight: bold;
     text-align:left;
     padding:5px;
+    height:100px
     
 }
+
 h2{
+
     font-size: 18pt;
     font-weight:normal;
+    padding:0px;
     
 }
 nav{
@@ -86,8 +90,9 @@ a, nav ul li div {
 }
 
 a:hover, nav ul li div:hover{
-    color:darkmagenta; 
+    color:red; 
 }  
+
 
 
 footer{
@@ -104,6 +109,31 @@ footer{
     
 }
 
+<<<<<<< HEAD
 
 
+=======
+@media screen and (max-width: 480px){
+    header{
+        font-size: 25pt;
+        padding:2px;
+    }
+    h2{
+        font-size:15pt;
+    }
+    nav{
+    width:100%;
+    }
+   a, nav ul li div {
+       width: 100%;
+       float:none;
+    
+}
+
+
+    
+
+    
+}
+>>>>>>> origin/master
 

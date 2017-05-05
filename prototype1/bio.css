@@ -11,9 +11,12 @@ p{
     font-family: sans-serif;
     color:black;
     padding:20px;
+    margin:20px;
     height:1000px;
-    width:510px;
-    line-height: 1.5;
-    position:absolute;
+    width:500px;
+    line-height:1.5;
+    font-weight:100;
+    position:relative;
+    
     
 }
