@@ -21,11 +21,10 @@
     z-index: 1;
     position:relative;
 }
-<<<<<<< HEAD
-=======
+
 img{
     width:320px;
     height:320px;
     object-fit: cover;
 }
->>>>>>> origin/master
+
