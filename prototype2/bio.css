@@ -16,7 +16,8 @@ p{
     width:500px;
     line-height:1.5;
     font-weight:100;
-    position:relative;
+    position:absolute;
+    left:10px;
     
     
 }

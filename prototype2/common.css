@@ -113,22 +113,27 @@ footer{
     header{
         font-size: 25pt;
         padding:2px;
+        text-align: center;
+        
+        
     }
     h2{
         font-size:15pt;
     }
     nav{
     width:100%;
+    display:none;
     }
    a, nav ul li div {
        width: 100%;
        float:none;
-    
-}
-
-
-    
-
-    
-}
-
+    }
+    p{
+       height:400px;
+    }
+    #headshot{
+        height:320px;
+        width:320px;
+        position:relative;
+    }
+  
