@@ -4,6 +4,7 @@
 html{
     margin:0px;
     padding:0px;
+    height:100%
     
 }
 header{
@@ -56,14 +57,14 @@ nav ul ul li{
 
 body{
     position:relative;
-    height:1200px;
+    height:100%;
     background-image: url(background.jpg);
     background-repeat: no-repeat;
-    margin:2px;
+    margin:0px;
     padding:0px;
+    padding-bottom:60px;
     
 }
-
 
 ul {
     list-style-type: none;
@@ -96,7 +97,7 @@ a:hover, nav ul li div:hover{
 
 
 footer{
-    position: absolute;
+    position: fixed;
     background-color: black;
     color:white;
     font-family: sans-serif;
@@ -106,6 +107,8 @@ footer{
     right: 0;
     bottom: 0;
     left:0;
+    width:100%;
+   
     
 }
 
@@ -114,16 +117,11 @@ footer{
         font-size: 25pt;
         padding:2px;
         text-align: center;
-        
-        
-    }
+        }
     h2{
         font-size:15pt;
     }
-    nav{
-    width:100%;
-    display:none;
-    }
+   
    a, nav ul li div {
        width: 100%;
        float:none;
@@ -131,9 +129,4 @@ footer{
     p{
        height:400px;
     }
-    #headshot{
-        height:320px;
-        width:320px;
-        position:relative;
-    }
-  
+    

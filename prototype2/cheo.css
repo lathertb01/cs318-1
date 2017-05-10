@@ -3,3 +3,11 @@ img{
     height:300px;
     object-fit: cover;
 }
+
+
+main{
+    color:white;
+    font-family: sans-serif;
+    font-size: 30pt;
+    text-align: center;
+}
