@@ -12,7 +12,7 @@ main{
    text-align: center;
    height:auto;
    display:inline-block;
-   background-image: url(background.jpg);
+   background-image:url(../images/background.jpg);
    background-repeat: repeat;
     
     
