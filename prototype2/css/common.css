@@ -58,7 +58,7 @@ nav ul ul li{
 body{
     position:relative;
     height:100%;
-    background-image:url(images/background.jpg);
+    background-image:url(../images/background.jpg);
     background-repeat: no-repeat;
     margin:0px;
     padding:0px;
@@ -128,5 +128,14 @@ footer{
     }
     p{
        height:400px;
+    }
+    #imagelist{
+        padding:0px;
+        text-align: center;
+    }
+    #embed{
+        width:320px;
+        height:320px;
+        object-fit: cover;
     }
     
