@@ -1,9 +1,10 @@
 #headshot{
-   position:absolute;
    right:10px;
    text-align: center;
    padding:5px;
-   max-width:  width: 100%;
+   padding-top:10px;
+   padding-left:5px;
+   max-width:100%;
    height: auto;
 }
 
