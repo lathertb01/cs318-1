@@ -4,6 +4,18 @@
 
 #embed{
     text-align:center;
-    padding:100px;
+    padding:50px;
     margin:0px;
+}
+#embed2{
+    text-align:center;
+    padding:50px;
+    margin:0px;
+    
+}
+h2{
+    color:white;
+    text-align: center;
+    /background-color: black;
+    font-family: sans-serif;
 }
