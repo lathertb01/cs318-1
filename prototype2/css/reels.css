@@ -4,18 +4,19 @@
 
 #embed{
     text-align:center;
-    padding:50px;
+    padding:20px;
     margin:0px;
 }
 #embed2{
     text-align:center;
-    padding:50px;
+    padding:20px;
     margin:0px;
     
 }
-h2{
+h3{
     color:white;
+    font-size:18pt;
     text-align: center;
-    /background-color: black;
     font-family: sans-serif;
+    padding:30px;
 }
