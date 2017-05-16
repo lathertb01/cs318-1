@@ -6,6 +6,7 @@
    padding-left:5px;
    max-width:100%;
    height: auto;
+   position: absolute;
 }
 
 p{
@@ -23,4 +24,16 @@ p{
     left:10px;
     
     
+}
+@media screen and (max-width: 945px){
+ #headshot{
+    max-width: 100%;
+	height: auto;
+    position: static;
+        
+    }
+p{
+    width:100%;
+    
+    }
 }
