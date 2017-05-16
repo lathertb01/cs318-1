@@ -17,7 +17,8 @@ h3{
     font-size: 14pt;
     background-color: black;
     padding:2px;
-    margin:10px;
+    margin-top:20px;
+    margin:5px;
     
     
 }
@@ -26,8 +27,9 @@ p{
     background:rgba(255,255,255, 0.5);
     color:black;
     font-weight: bolder;
-    margin:10px;
+    margin:5px;
     padding-top: 5px;
     padding-bottom: 5px;
     padding-left: 5px;
 }
+

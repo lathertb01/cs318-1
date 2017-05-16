@@ -7,6 +7,7 @@ main{
     font-size: 20pt;
     padding:15px;
     line-height: 45px;
+    margin-top:23px;
 }
 
 #abc {
@@ -42,6 +43,9 @@ form {
     border-radius:10px;
     font-family:sans-serif;
     background-color:#FFF;
+}
+h3{
+    color:black;
 }
 
 p {
@@ -115,4 +119,5 @@ button {
     
    
 }
+
     
