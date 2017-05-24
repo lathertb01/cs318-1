@@ -113,7 +113,7 @@ footer{
     
 }
 
-@media screen and (max-width: 480px){
+@media screen and (max-width: 750px){
    
 header{
         font-size: 25pt;
@@ -130,6 +130,8 @@ h2{
 a, nav ul li div {
     font-size:12pt;
     padding-right: 21px;
+    padding-left: 53px;
+    
     
     }
 
@@ -138,6 +140,7 @@ a, nav ul li div {
     display:inline;
     padding:22px;
     margin-right:50px;
+    margin-left: 90px;
     }
     
     
