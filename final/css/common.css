@@ -143,6 +143,20 @@ a, nav ul li div {
     margin-left: 90px;
     }
     
+nav ul ul{
+    position: absolute;
+    background-color: black;
+    padding:0; 
+    text-align: left;
+    display:none;
+    z-index:1;
+    
+}
+a:hover, nav ul li div:hover{
+    color:red; 
+}  
+
+    
     
 
 }
