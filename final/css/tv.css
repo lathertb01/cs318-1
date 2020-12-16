@@ -1,0 +1,35 @@
+main{
+    color:white;
+    font-family: sans-serif;
+    font-size: 30pt;
+    text-align: center;
+    
+}
+
+#imagelist{
+   position:absolute;
+   left:10px;
+   text-align: center;
+   height:auto;
+   display:inline-block;
+   background-image:url(../images/background.jpg);
+   background-repeat: repeat;
+   margin-top:60px;
+
+}
+body{
+    height:5050px;
+    width:auto;
+}
+img{
+    width:300px;
+    height:300px;
+    object-fit: cover;
+}
+@media screen and (max-width: 750px){
+    #imagelist{
+        margin-top:70px;
+    }
+    
+    
+}
