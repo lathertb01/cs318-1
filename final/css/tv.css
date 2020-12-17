@@ -15,7 +15,17 @@ main{
    background-image:url(../images/background.jpg);
    background-repeat: repeat;
    margin-top:60px;
+    
 
+}
+h2{
+
+    font-size: 30pt;
+    font-weight:normal;
+}
+h3{
+    font-size: 18pt;
+    font-weight: normal;
 }
 body{
     height:5050px;
