@@ -17,6 +17,13 @@ main{
    margin-top:60px;
 
 }
+
+h2{
+    font-size: 35pt;
+    font-weight:normal;
+    
+}
+}
 body{
     height:5050px;
     width:auto;
