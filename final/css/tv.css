@@ -20,7 +20,7 @@ main{
 }
 h2{
 
-    font-size: 18pt;
+    font-size: 35pt;
     font-weight:normal;
     
 }
@@ -29,6 +29,13 @@ h3{
     font-size: 18pt;
     font-weight:normal;
     
+    
+}
+
+h4{
+   font-size: 18pt;
+    font-weight:normal;
+     
     
 }
 body{
